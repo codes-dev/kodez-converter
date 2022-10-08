@@ -9,7 +9,7 @@ const routes: Routes = [
   {
     path: '',
     component: ConverterComponent,
-    title: 'Converter',
+    title: 'Converter | Kodez Converter',
     resolve: {
       currencies: GetCurrenciesResolver,
       location: GeolocatorResolver
@@ -18,7 +18,7 @@ const routes: Routes = [
   {
     path: 'rates',
     component: RatesComponent,
-    title: 'Rates',
+    title: 'Rates | Kodez Converter',
     resolve: {
       currencies: GetCurrenciesResolver,
       location: GeolocatorResolver
