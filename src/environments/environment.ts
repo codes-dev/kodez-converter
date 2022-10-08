@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  apiUrl: 'https://api.frankfurter.app/',
+  geoKey: 'd91ba022286d4edc87cd39a6cd791075'
 };
 
 /*

@@ -1,0 +1,10 @@
+<div class="converter-graph">
+    <mat-button-toggle-group name="fontStyle" aria-label="Font Style" [formControl]="controls">
+        <mat-button-toggle class="rounded" value="week">Week</mat-button-toggle>
+        <mat-button-toggle class="rounded" value="month">Month</mat-button-toggle>
+        <mat-button-toggle class="rounded" value="year">Year</mat-button-toggle>
+        <mat-button-toggle class="rounded" value="5years">5 Years</mat-button-toggle>
+    </mat-button-toggle-group>
+
+    <canvas #chart></canvas>
+</div>
