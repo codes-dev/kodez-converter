@@ -3,4 +3,5 @@ services:
     name: kodez-converter
     env: node
     buildCommand: "ng build"
+    startCommand: "ng serve"
     plan: free # optional (defaults to starter)
