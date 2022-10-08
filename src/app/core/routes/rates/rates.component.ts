@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl } from '@angular/forms';
 import { ActivatedRoute } from '@angular/router';
-import { OpenRatesExchangeService } from 'src/app/open-rates-exchange/services/open-rates-exchange.service';
+import { OpenRatesExchangeService } from '../../../open-rates-exchange/services/open-rates-exchange.service';
 
 @Component({
   selector: 'app-rates',
