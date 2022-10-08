@@ -3,6 +3,4 @@ services:
     name: kodez-converter
     env: static-sites
     buildCommand: "npm run build"
-    rootDirectory: "src"
-    publishDirectory: "build"
     plan: free # optional (defaults to starter)
