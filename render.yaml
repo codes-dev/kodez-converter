@@ -1,6 +1,7 @@
 services:
   - type: web
     name: kodez-converter
-    env: static
-    buildCommand: "./build.sh"
+    env: node
+    buildCommand: npm install && npm run build
+    startCommand: npm run start
     plan: free # optional (defaults to starter)
