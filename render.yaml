@@ -1,6 +1,6 @@
 services:
   - type: web
     name: kodez-converter
-    env: static-sites
+    env: static
     buildCommand: "npm run build"
     plan: free # optional (defaults to starter)
