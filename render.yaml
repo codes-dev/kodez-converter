@@ -1,7 +1,6 @@
 services:
   - type: web
     name: kodez-converter
-    env: node
+    env: static-sites
     buildCommand: "ng build"
-    startCommand: "ng serve"
     plan: free # optional (defaults to starter)
