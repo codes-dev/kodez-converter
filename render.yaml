@@ -2,7 +2,7 @@ services:
   - type: web
     name: kodez-converter
     env: static-sites
-    buildCommand: "ng build"
+    buildCommand: "npm run build"
     rootDirectory: "src"
     publishDirectory: "build"
     plan: free # optional (defaults to starter)
