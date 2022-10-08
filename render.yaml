@@ -1,7 +1,6 @@
 services:
   - type: web
-    name: kodez-portfolio-api
+    name: kodez-converter
     env: node
     buildCommand: "ng build"
-    publishDirectory: "dist/currency-coventer"
     plan: free # optional (defaults to starter)
